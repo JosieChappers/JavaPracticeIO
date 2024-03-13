@@ -71,8 +71,10 @@ public class Week4InClass {
 			System.out.println(numbers.substring(1,8));
 			//3. For three of the strings (your choice), remove the first and last letters of the string. Do this BEFORE adding them all together and printing them out.
 			String removedFirst = numbers.substring(2);
+					
 			System.out.println(removedFirst);
 			
+			String removedFirst = numbers.substring(2);
 		
 		
 		// 8. extension
