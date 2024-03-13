@@ -26,10 +26,26 @@ public class Week4PracticeWork {
 		System.out.println(combinedString);
 		
 		// toUpperCase
-		//Change three of the variables (your choice) to all upper case. 
+		//Change three of the variables (your choice) to all upper case.
+		String combinedString1 = myString1.toUpperCase() + " " + myString2 + " " + myString3 + " " + myString4.toUpperCase() + " " + myString5 + " " + myString6 + " " + myString7.toUpperCase() + " " + myString8 + " " + myString9 + " " + myString10; 
+		System.out.println(combinedString1);
+		
 		//Do this BEFORE adding them all together and printing them out.
 
+		//toLowerCase
+		//Change three of the variables (your choice) to all lower case. Do this BEFORE adding them all together and printing them out.
+		String combinedString2 = myString1.toUpperCase() + " " + myString2.toLowerCase() + " " + myString3.toLowerCase() + " " + myString4.toUpperCase() + " " + myString5 + " " + myString6 + " " + myString7.toUpperCase() + " " + myString8 + " " + myString9 + " " + myString10.toLowerCase(); 
+		System.out.println(combinedString2);
+		
+		//	replace
+		//For three of the strings (your choice), replace all instances of one vowel with a different vowel. Do this BEFORE changing the case.
+		String myString11 = myString1.replace('e', 'u');
+		System.out.println(myString11);
+		
+		myString1 = myString1.replace('e', 'u');
+		System.out.println(myString1);
 
+	//	System.out.println(someOtherThing);
 		
 	}
 
