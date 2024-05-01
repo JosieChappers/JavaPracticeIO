@@ -10,6 +10,7 @@ public class Week4InClass {
 		
 		String s1 = "Fife";
 		String s2 = "College";
+		
 		// The + operator (concatenation)
 
 		String s3 = s1 + " " + s2;
@@ -74,7 +75,7 @@ public class Week4InClass {
 					
 			System.out.println(removedFirst);
 			
-			String removedFirst = numbers.substring(2);
+	//		String removedFirst = numbers.substring(2);
 		
 		
 		// 8. extension
